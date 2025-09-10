@@ -27,10 +27,4 @@ public class AuthController {
         return ResponseEntity.ok(response);
     }
 
-    @GetMapping("/home")
-    public ResponseEntity<String> home() {
-        return ResponseEntity.ok("Welcome to our Website");
-    }
-
-
 }
